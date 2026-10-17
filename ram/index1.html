@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CA Nitin Murarka - Market Community</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #080e19;
+            color: #ffffff;
+            min-height: 100vh;
+            padding: 0 15px;
+        }
+
+        .container {
+            max-width: 420px;
+            width: 100%;
+            margin: 0 auto;
+            background: #0b1528;
+            border-left: 1px solid #25344c;
+            border-right: 1px solid #25344c;
+            min-height: 100vh;
+            padding: 0 20px 30px;
+        }
+
+        .profile {
+            text-align: center;
+            padding-top: 0;
+        }
+
+        .profile-img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 4px solid #f5cc35;
+            box-shadow: 0 0 22px rgba(245, 204, 53, 0.25);
+            margin-top: -14px;
+        }
+
+        .subtitle {
+            color: #a9c8ff;
+            font-size: 14px;
+            font-weight: bold;
+            letter-spacing: 2px;
+            margin-top: 15px;
+        }
+
+        h1 {
+            color: #ffca3a;
+            font-size: 25px;
+            margin-top: 8px;
+            line-height: 1.3;
+        }
+
+        .line {
+            width: 50px;
+            height: 2px;
+            background: #ffca3a;
+            margin: 10px auto 20px;
+        }
+
+        .join-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            width: 100%;
+            min-height: 86px;
+            padding: 15px;
+            border: 2px solid #ffca3a;
+            border-radius: 30px;
+            background: linear-gradient(135deg, #31b0df, #2196c5);
+            color: white;
+            text-decoration: none;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            line-height: 1.5;
+            transition: 0.3s;
+        }
+
+        .join-btn:hover {
+            background: #1689bb;
+            transform: translateY(-2px);
+        }
+
+        .telegram-icon {
+            background: white;
+            color: #2196c5;
+            border-radius: 50%;
+            width: 17px;
+            height: 17px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 11px;
+            flex-shrink: 0;
+        }
+
+        .features {
+            margin-top: 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .feature-card {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            padding: 15px 16px;
+            min-height: 85px;
+            background: #111e34;
+            border: 1px solid #243653;
+            border-radius: 19px;
+        }
+
+        .feature-icon {
+            width: 38px;
+            height: 38px;
+            min-width: 38px;
+            border-radius: 50%;
+            background: #ffca4a;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .feature-text h2 {
+            font-size: 15px;
+            margin-bottom: 4px;
+            color: #ffffff;
+        }
+
+        .feature-text p {
+            font-size: 13px;
+            line-height: 1.45;
+            color: #9eb4d8;
+        }
+
+        .bottom-join {
+            margin-top: 22px;
+        }
+
+        .footer {
+            color: #8195b5;
+            text-align: center;
+            font-size: 12px;
+            margin-top: 22px;
+        }
+
+        @media (max-width: 380px) {
+            .container {
+                padding-left: 14px;
+                padding-right: 14px;
+            }
+
+            h1 {
+                font-size: 22px;
+            }
+
+            .join-btn {
+                font-size: 16px;
+            }
+
+            .feature-card {
+                padding: 13px 11px;
+                gap: 11px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <main class="container">
+
+        <!-- Profile Section -->
+        <section class="profile">
+
+            <!-- Apni photo ka naam yahan likhein -->
+            <img src="nitinpic.jpg" alt="CA Nitin Murarka" class="profile-img">
+
+            <p class="subtitle">MARKET COMMUNITY</p>
+
+            <h1>CA NITIN MURARKA</h1>
+
+            <div class="line"></div>
+
+        </section>
+
+        <!-- Top Telegram Join Button -->
+        <a href="https://t.me/YOUR_TELEGRAM_LINK" target="_blank" rel="noopener noreferrer" class="join-btn">
+            <span class="telegram-icon">➤</span>
+            <span>JOIN FREE TELEGRAM<br>COMMUNITY</span>
+        </a>
+
+        <!-- Information Cards -->
+        <section class="features">
+
+            <div class="feature-card">
+                <div class="feature-icon">📊</div>
+
+                <div class="feature-text">
+                    <h2>Market Updates</h2>
+                    <p>
+                        Stay updated with market-related discussions
+                        and educational content.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">📚</div>
+
+                <div class="feature-text">
+                    <h2>Learning Resources</h2>
+                    <p>
+                        Explore educational content and general
+                        market concepts.
+                    </p>
+                </div>
+            </div>
+
+            <div class="feature-card">
+                <div class="feature-icon">💬</div>
+
+                <div class="feature-text">
+                    <h2>Community Discussions</h2>
+                    <p>
+                        Join discussions with people interested
+                        in financial markets.
+                    </p>
+                </div>
+            </div>
+
+        </section>
+
+        <!-- Bottom Telegram Join Button -->
+        <div class="bottom-join">
+            <a href="https://t.me/YOUR_TELEGRAM_LINK" target="_blank" rel="noopener noreferrer" class="join-btn">
+                <span class="telegram-icon">➤</span>
+                <span>JOIN FREE TELEGRAM<br>COMMUNITY</span>
+            </a>
+        </div>
+
+        <footer class="footer">
+            © 2026 Market Community. All rights reserved.
+        </footer>
+
+    </main>
+
+</body>
+
+</html>
